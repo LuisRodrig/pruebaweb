@@ -3,10 +3,7 @@
     vertical-align: middle;
 }
 body{
-}
-.h4{
-    font-size:30px;
-    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
 }
 .navbar{
     background-image: linear-gradient(90deg,#83d0f2,#ebf8e1);
@@ -26,6 +23,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 30px black;
+    font-family: 'IBM Plex Mono';
 }
 
 section .row{
@@ -47,9 +47,11 @@ section .row > a{
 }
 .sectionB{
     background-image: url("./src/botw.png");
+    height:225px;
 }
 .sectionC{
     background-image: url("./src/tlou.png");
+    height:225px;
 }
 
 .articulo {
@@ -61,11 +63,26 @@ section .row > a{
     text-decoration: none;
 }
 
+.h4{
+    font-size:27px;
+    font-weight: 600;
+}
 .fecha, .autor{
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
     color:rgb(130, 132, 133);
 }
 
 footer{
     background-image: linear-gradient(90deg,#83d0f2,#ebf8e1);
+}
+
+.h11, .h21{
+    font-weight: 700;
+}
+.h11{
+    font-size: 64px;
+}
+.h21{
+    font-size: 38px;
 }
