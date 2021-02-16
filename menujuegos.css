@@ -73,6 +73,13 @@ section .row > a{
     color:rgb(130, 132, 133);
 }
 
+.h2{
+    font-weight: 700;
+}
+.h11{
+    font-size:64px;
+}
+
 footer{
     background-image: linear-gradient(90deg,#83d0f2,#ebf8e1);
 }
