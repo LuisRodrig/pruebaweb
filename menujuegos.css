@@ -3,7 +3,6 @@
     vertical-align: middle;
 }
 body{
-    font-family: 'Roboto', sans-serif;
 }
 .h4{
     font-size:30px;
@@ -48,11 +47,9 @@ section .row > a{
 }
 .sectionB{
     background-image: url("./src/botw.png");
-    height:250px;
 }
 .sectionC{
     background-image: url("./src/tlou.png");
-    height:250px;
 }
 
 .articulo {
@@ -71,24 +68,4 @@ section .row > a{
 
 footer{
     background-image: linear-gradient(90deg,#83d0f2,#ebf8e1);
-}
-
-.selectorA .h1{
-    color: white;
-    text-shadow: 0 0 3px rgb(107, 105, 105);
-}
-
-.h11{
-    font-size:64px;
-    font-weight: 700;
-}
-
-.h21{
-    font-size:40px;
-    font-weight: 700;
-}
-
-.h22{
-    font-size:40px;
-    font-weight: 700;
 }
