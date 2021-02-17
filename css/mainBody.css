@@ -1,0 +1,9 @@
+/* PRINCIPAL */
+*{
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Games signup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- STYLES -->
+        <link rel="stylesheet" href="./../css/mainNav.css">
+        <link rel="stylesheet" href="./../css/mainSignup.css">
+    
+        <!-- Google imports -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+        <!-- Bootsrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+<body class="text-center">
+    <nav class="navbar">
+        <div class="container">
+            <a href="./../index.html" class="navA"><span class="navbar-brand mb-0 h1"><b>Games</b></span></a>
+            <div class="d-flex align-items-center">
+                <a href="#" class="navA"><span class="material-icons">admin_panel_settings</span></a>
+                <a href="./signup.html" class="navA"><span class="material-icons">create</span></a>
+                <a href="./login.html" class="navA"><span class="material-icons">account_circle</span></a>
+            </div>
+        </div>
+    </nav>
+    <main class="d-flex justify-content-center align-items-center flex-column">
+        <form class="form-signin">
+            <h3 class="titlelogin">Por favor, regístrate</h3>
+            <input type="text" name="user" id="inputUser" class="form-control my-4 px-3 py-2" autocomplete="nope" placeholder="Usuario" required autofocus>
+            <input type="password" name="password" id="inputPassword" class="form-control my-4 px-3 py-2" autocomplete="off" placeholder="Contraseña" required>
+            <input type="password" name="repeatpassword" id="inputRepeatPassword" class="form-control my-4 px-3 py-2" autocomplete="off" placeholder="Repetir contraseña" required>
+            <input type="mail" name="mail" id="inputMail" class="form-control my-4 px-3 py-2" autocomplete="off" placeholder="Correo electrónico" required>
+            
+            <button class="btn btn-primary btn-block my-4 p-2" type="submit">Registrarme</button>
+        </form>
+        <p>¿Ya tienes cuenta? <a href="./login.html">Inicia sesión</a></p>
+    </main>
+    <footer class="container-fluid p-5">
+        <b>Games</b>
+    </footer>
+    <script src="menujuegos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
