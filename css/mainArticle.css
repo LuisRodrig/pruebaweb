@@ -1,0 +1,51 @@
+/*ARTICLE CABECERA*/
+.article-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.article-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-fecha, .article-autor{
+    font-size:0.8rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color:rgb(130, 132, 133);
+}
+
+/*ARTICLE CONTENIDO*/
+.article p{
+    font-size: 1rem;
+    margin:2rem 0;
+    word-spacing: 1rem;
+}
+.article h1{
+    font-size: 2rem;
+    margin:1rem 0;
+}
+.article li{
+    margin: 0 0 1rem 1rem;
+}
+.article-enlace{
+    color:rgb(130, 132, 133);
+}
+.article-enlace:hover{
+    color:rgb(130, 132, 133);
+    text-decoration: underline;
+}
+@media (max-width: 767.98px) {
+    .article-title{
+        font-size: 1.75rem;
+    }
+    .article p{
+        font-size: 0.8rem;
+    }
+    .article-title, .article-contenido *{
+        padding: 0 1rem;
+    }
+    .article-fecha, .article-autor{
+        font-size:0.7rem;
+    }
+}
