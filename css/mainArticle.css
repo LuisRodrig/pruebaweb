@@ -8,7 +8,12 @@
     align-items: center;
     justify-content: center;
 }
-
+.article-enlace{
+    color:rgb(130, 132, 133) !important;
+}
+.article-enlace:hover{
+    text-decoration: underline !important;
+}
 .article-fecha, .article-autor{
     font-size:0.9rem;
     font-family: 'IBM Plex Mono', monospace;
