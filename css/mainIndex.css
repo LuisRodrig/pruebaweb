@@ -40,7 +40,8 @@
 }
 .articulo .fecha, .articulo .autor{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1rem;
+    color:rgb(130, 132, 133);
+    font-size: 0.9rem;
 }
 .articulo:not(:first-child){
     border-top:1px solid rgb(224, 221, 221);
