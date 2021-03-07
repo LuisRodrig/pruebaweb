@@ -9,6 +9,9 @@ font-family: 'Inter', sans-serif;
     box-sizing: border-box;
     vertical-align: middle;
 }
+html{
+    font-size:18px;
+}
 html, a{
     color: #2c2c2c !important;
 }

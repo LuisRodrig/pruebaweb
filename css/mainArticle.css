@@ -14,18 +14,19 @@
     font-family: 'IBM Plex Mono', monospace;
     color:rgb(130, 132, 133);
 }
-
 /*ARTICLE CONTENIDO*/
-.article p{
-    font-size: 1rem;
-    margin:2rem 0;
+.article-contenido *{
     word-spacing: 1rem;
 }
-.article h1{
+.article-contenido p{
+    font-size: 1rem;
+    margin:2rem 0;
+}
+.article-contenido h1{
     font-size: 2rem;
     margin:1rem 0;
 }
-.article li{
+.article-contenido li{
     margin: 0 0 1rem 1rem;
 }
 .article-enlace{
@@ -35,17 +36,13 @@
     color:rgb(130, 132, 133);
     text-decoration: underline;
 }
-/*
+
 @media (max-width: 767.98px) {
     .article-title{
-        font-size: 1.75rem;
-    }
-    .article p{
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     .article-title, .article-contenido *{
         padding: 0 1rem;
     }
 
 }
-*/
