@@ -15,7 +15,7 @@
     text-decoration: underline !important;
 }
 .article-fecha, .article-autor{
-    font-size:0.9rem;
+    font-size:0.8rem;
     font-family: 'IBM Plex Mono', monospace;
     color:rgb(130, 132, 133);
 }
@@ -44,7 +44,7 @@
 
 @media (max-width: 767.98px) {
     .article-title{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .article-title, .article-contenido *{
         padding: 0 1rem;
