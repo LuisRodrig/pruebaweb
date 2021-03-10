@@ -20,9 +20,6 @@
     color:rgb(130, 132, 133);
 }
 /*ARTICLE CONTENIDO*/
-.article-contenido *{
-    word-spacing: 1rem;
-}
 .article-contenido p{
     font-size: 1rem;
     margin:2rem 0;
